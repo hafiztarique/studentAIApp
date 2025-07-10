@@ -1,6 +1,6 @@
 import streamlit as st
-from app.agent import ask_ai
-from app.canvas_utils import get_canvas_courses
+from agent import ask_ai
+from canvas_utils import get_canvas_courses
 
 st.set_page_config(page_title="AI Student Assistant", layout="wide")
 st.title("🎓 Agentic AI Student Assistant")
